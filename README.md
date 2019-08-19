@@ -15,11 +15,10 @@ Importantly, the methodology displayed identifies six biologically novel pancrea
 
 ### Methods 
 
-As part of this project, the largest open source transcriptomic pancreatic
-ductal adenocarcinoma dataset was created by combining 11 publicly available
-PDAC Microarray datasets, and 3 RNA-sequencing datasets derived from solid tumor biopsies (Support Information Table 1).
+#### *As part of this project, the largest open source transcriptomic pancreatic ductal adenocarcinoma dataset was created by combining 11 publicly available PDAC Microarray datasets, and 3 RNA-sequencing datasets derived from solid tumor biopsies (Support Information Table 1).*
 
-** Table 1: Data setes Combined to create a large PDAC cohort (1013 samples). 
+** Table 1: origianl opensource data sets Combined to create a large PDAC cohort (1013 samples). ** 
+
 ![All 14 Original Cohort Sources ](https://github.com/KristoferLintonReid/Enhanced-Cancer-Subtyping-/blob/master/Images/Original-opensource_PDAC_Cohorts.png)
 
 
@@ -33,10 +32,29 @@ survival analysis
 
 ### Results 
 
-#### M3C Clustering Analysis Indicates prior NMF results (Bailey et al., (2016), have identified false possitives. Similarly with Collinson et al., (Enhnaced-Canacer-Subyping/Images/) 
+#### ** Monte-Carlo Consenss Clustering (M3C) **
+#### *M3C Clustering Analysis Indicates prior NMF results (Bailey et al., (2016), have identified false possitives. Similarly with Collinson et al., (Collinson Results Avaliable at Enhnaced-Canacer-Subyping/Images/)* 
 
- ** Figure 1 M3C Bailey et al., (2016) ![Monti-Carlo_Clustering_Bailey_etl al.,](https://github.com/KristoferLintonReid/Enhanced-Cancer-Subtyping-/blob/master/Images/Bailey_M3C.png)
+ ** Figure 1 M3C Bailey et al., (2016) ** 
+
+![Monti-Carlo_Clustering_Bailey_etl al.,](https://github.com/KristoferLintonReid/Enhanced-Cancer-Subtyping-/blob/master/Images/Bailey_M3C.png)
+ 
+ #### *M3C Clusterng Analyisis identifies 6 Subtypes of the 1013 Patient Cohort* 
+ 
+  ** Figure 2 M3C 1013 PDAC patient Cohort ** ![Monti-Carlo_Clustering_of_1013 Patient Cohort identifies 6 Subypes.,](https://github.com/KristoferLintonReid/Enhanced-Cancer-Subtyping-/blob/master/Images/M3C_1013_PDAC-Cohort.png)
+ 
+ 
+#### ** Biological and Clinical Validation ** 
 
 
+** Figure 3 A) Consensus matrix Heatmap, B) Heatmap of 2000 most variable genes against subtypes (Full list of DE genes inEhnaced-Cancer-Subtyping/Data/) , C) PCA Score plot of subtypes, D) Kaplan-Meier Survival Analyis 
+![Clincal nd biological validation of the 6 subtypes ](https://github.com/KristoferLintonReid/Enhanced-Cancer-Subtyping-/blob/master/Images/Biological%20and%20Clincal%20Validation.png)
 
 
+##### ** Subtype Classifier Creation ** 
+
+#### * A deep learning subtype classifeier was created using the pakacge h20 and the autML function. this created 100  different ML baed Classifiers. * 
+
+** Table 2 Top 5 Classifiers in terms of mean per class error, the top classififer was selected as PDACNet. **
+
+![ Top 5 Classifiers Created by H2O's AutoM gunction } ( ** Figure 2 M3C 1013 PDAC patient Cohort ** ![Monti-Carlo_Clustering_of_1013 Patient Cohort identifies 6 Subypes.,](https://github.com/KristoferLintonReid/Enhanced-Cancer-Subtyping-/blob/master/Images/M3C_1013_PDAC-Cohort.png)
