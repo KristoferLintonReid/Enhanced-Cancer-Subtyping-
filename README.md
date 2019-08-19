@@ -55,4 +55,4 @@ survival analysis
 
 **Table 2 Top 5 Classifiers in terms of mean per class error, the top classififer was selected as PDACNet.**
 
-![Top 5 Classifiers Created by H2O's AutoM gunction](https://github.com/KristoferLintonReid/Enhanced-Cancer-Subtyping-/blob/master/Images/M3C_1013_PDAC-Cohort.png)
+![Top 5 Classifiers Created by H2O's AutoM gunction](https://github.com/KristoferLintonReid/Enhanced-Cancer-Subtyping-/blob/master/Images/h2O_ML_Top5_Classifiers.png)
