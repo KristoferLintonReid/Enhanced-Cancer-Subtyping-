@@ -16,8 +16,12 @@ Importantly, the methodology displayed identifies six biologically novel pancrea
 ### Methods 
 
 As part of this project, the largest open source transcriptomic pancreatic
-ductal adenocarcinoma dataset was created by combining11 publicly available
+ductal adenocarcinoma dataset was created by combining 11 publicly available
 PDAC Microarray datasets, and 3 RNA-sequencing datasets derived from solid tumor biopsies (Support Information Table 1).
+
+** Table 1: Data setes Combined to create a large PDAC cohort (1013 samples). 
+![All 14 Original Cohort Sources ](https://github.com/KristoferLintonReid/Enhanced-Cancer-Subtyping-/blob/master/Images/Original-opensource_PDAC_Cohorts.png)
+
 
 The subtyping approach encompasses 4 key components:
 1)Clustering with Monti-Carlo-Consensus-Clustering
@@ -29,6 +33,10 @@ survival analysis
 
 ### Results 
 
-#### M3C Clustering Analysis Indicates prior NMF results (Bailey et al., (2016) and Collinson et al., (2015), have identified false possitives.
+#### M3C Clustering Analysis Indicates prior NMF results (Bailey et al., (2016), have identified false possitives. Similarly with Collinson et al., (Enhnaced-Canacer-Subyping/Images/) 
 
-![Monti-Carlo_Clustering_Bailey_etl al.,](https://github.com/KristoferLintonReid/Enhanced-Cancer-Subtyping-/blob/master/Images/Bailey_M3C.png)
+ ** Figure 1 M3C Bailey et al., (2016) ![Monti-Carlo_Clustering_Bailey_etl al.,](https://github.com/KristoferLintonReid/Enhanced-Cancer-Subtyping-/blob/master/Images/Bailey_M3C.png)
+
+
+
+
