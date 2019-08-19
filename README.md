@@ -17,7 +17,7 @@ Importantly, the methodology displayed identifies six biologically novel pancrea
 
 #### *As part of this project, the largest open source transcriptomic pancreatic ductal adenocarcinoma dataset was created by combining 11 publicly available PDAC Microarray datasets, and 3 RNA-sequencing datasets derived from solid tumor biopsies (Support Information Table 1).*
 
-** Table 1: origianl opensource data sets Combined to create a large PDAC cohort (1013 samples). ** 
+** Table 1: original opensource data sets Combined to create a large PDAC cohort (1013 samples). ** 
 
 ![All 14 Original Cohort Sources ](https://github.com/KristoferLintonReid/Enhanced-Cancer-Subtyping-/blob/master/Images/Original-opensource_PDAC_Cohorts.png)
 
@@ -57,4 +57,4 @@ survival analysis
 
 ** Table 2 Top 5 Classifiers in terms of mean per class error, the top classififer was selected as PDACNet. **
 
-![ Top 5 Classifiers Created by H2O's AutoM gunction } ( ** Figure 2 M3C 1013 PDAC patient Cohort ** ![Monti-Carlo_Clustering_of_1013 Patient Cohort identifies 6 Subypes.,](https://github.com/KristoferLintonReid/Enhanced-Cancer-Subtyping-/blob/master/Images/M3C_1013_PDAC-Cohort.png)
+![ Top 5 Classifiers Created by H2O's AutoM gunction }[Monti-Carlo_Clustering_of_1013 Patient Cohort identifies 6 Subypes.,](https://github.com/KristoferLintonReid/Enhanced-Cancer-Subtyping-/blob/master/Images/M3C_1013_PDAC-Cohort.png)
