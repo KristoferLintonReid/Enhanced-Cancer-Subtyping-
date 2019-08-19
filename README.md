@@ -51,7 +51,7 @@ survival analysis
 
 ### **Subtype Classifier Creation** 
 
-#### *A deep learning subtype classifeier was created using the pakacge h20 and the autML function. this created 100  different ML based classifiers.* 
+#### *A deep learning subtype classifier was created using the pakacge h20 and the autML function. this created 100  different ML based classifiers.* 
 
 **Table 2 Top 5 Classifiers in terms of mean per class error, the top classififer was selected as PDACNet.**
 
