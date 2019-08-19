@@ -31,4 +31,4 @@ survival analysis
 
 #### M3C Clustering Analysis Indicates prior NMF results (Bailey et al., (2016) and Collinson et al., (2015), have identified false possitives.
 
-
+![Monti-Carlo_Clustering_Bailey_etl al.,](https://github.com/KristoferLintonReid/Enhanced-Cancer-Subtyping-/blob/master/Images/Bailey_M3C.png)
